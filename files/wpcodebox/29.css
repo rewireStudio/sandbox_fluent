@@ -1,0 +1,6 @@
+.coming-soon__video video {
+  object-fit: cover;
+}
+.coming-soon__container h2 a {
+  transition: all 0.3s ease-in-out;
+}
