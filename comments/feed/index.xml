@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Rewire Studio	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
 	<description>Wordpress Boilerplate</description>
 	<lastBuildDate>Wed, 10 Aug 2022 13:01:04 +0000</lastBuildDate>
 	<sy:updatePeriod>
