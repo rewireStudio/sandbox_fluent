@@ -1,0 +1,24 @@
+/* important styles to load early */
+
+.brxe-xpromodal {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.x-offcanvas_inner,
+.x-offcanvas_backdrop {
+    display: none;
+    position: fixed;
+}
+
+.brxe-xnotificationbar {
+    display: none;
+}
+
+.brxe-xproalert {
+    display: none;
+}
+
+.x-modal_backdrop {
+    position: fixed;
+}
