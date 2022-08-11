@@ -1,0 +1,66 @@
+#uipress-welcome-message .uip-padding-s {
+  font-weight: 600 !important;
+  font-size: 1.4em !important;
+  padding-right: 4em !important;
+  line-height: 1.6em !important;
+  color: #e44827;
+  border-color: #e44827;
+  background-color: #FEE5DF;
+}
+#uipress-welcome-message .uip-padding-s h2 {
+  color: #e44827 !important;
+  line-height: 0;
+  font-weight: 900;
+}
+#uipress-welcome-message .uip-padding-s a {
+  color: #e44827 !important;
+  font-weight: 900;
+  text-decoration: underline;
+}
+#uipress-welcome-message .uip-padding-s span {
+  font-weight: 900;
+  text-decoration: italic;
+}
+#uip-admin-menu > div:first-child > div, .uip-login-wrap > #login > h1:first-child {
+  position: relative;
+}
+#uip-admin-menu > div:first-child > div::after, .uip-login-wrap > #login > h1:first-child::after {
+  content: "by rewire.studio";
+  color: #e44827;
+  text-transform: uppercase;
+  font-family: Arial, Sans-Serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+  position: absolute;
+  left: 0;
+  bottom: -1.2rem;
+}
+.rwmb-button.button-primary, #generate-single {
+  color: white !important;
+}
+li.admin-menu__generate div.uip-sub-menu {
+  display: none;
+}
+li.admin-menu__generate .uip-flex-center {
+  font-size: 0.9rem;
+  background: #E44827;
+  border-radius: 1em;
+  text-align: center;
+  transition: background-color 0.2s ease-out;
+}
+li.admin-menu__generate .uip-flex-center:hover {
+  background: #6804cc;
+}
+li.admin-menu__generate a {
+  padding: 1em 1em 1em 1em;
+  color: white !important;
+}
+li.admin-menu__generate a:first-child {
+  padding: 1em 0em 1em 2em;
+}
+.rwmb-tab-nav {
+  font-weight: 700;
+}
+.rwmb-tab-nav .rwmb-tab-active {
+  background: var(--uip-color-primary-wash);
+}
